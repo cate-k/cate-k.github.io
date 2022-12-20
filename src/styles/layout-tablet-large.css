@@ -1,0 +1,31 @@
+@media (min-width: 1024px) {
+  /* Navigation */
+  .navigation {
+    padding: 0;
+    padding-bottom: 2%;
+  }
+
+  .logo {
+    height: 15%;
+    width: 15%;
+  }
+
+  .nav-links {
+    margin-right: 10%;
+  }
+
+  /* Portfolio */
+  .project {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
+  .project h2 {
+    margin-top: 2.5%;
+  }
+
+  .animated-link {
+    width: 40%;
+    padding: 2.5%;
+  }
+}

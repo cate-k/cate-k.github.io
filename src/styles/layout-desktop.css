@@ -1,0 +1,67 @@
+@media (min-width: 1280px) {
+  /* General */
+  p {
+    font-size: 1.8rem;
+  }
+
+  .page-content {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .animated-btn {
+    width: 30%;
+    margin-top: 5%;
+    padding: 2%;
+  }
+
+  /* Navigation */
+  .navigation {
+    padding: 0;
+    padding-bottom: 1%;
+  }
+
+  .logo {
+    height: 5%;
+    width: 5%;
+    margin-left: 5%;
+  }
+
+  .nav-links {
+    margin-top: 2%;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 1%;
+    padding-bottom: 2%;
+  }
+
+  .footer a {
+    padding: 1%;
+  }
+
+  /* Portfolio */
+  .portfolio h1 {
+    font-size: 4rem;
+  }
+
+  .project {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+
+  .project-img {
+    width: 45%;
+  }
+
+  .project-info {
+    width: 50%;
+  }
+
+  .animated-link {
+    margin-left: 10%;
+  }
+}

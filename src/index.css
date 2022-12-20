@@ -1,0 +1,66 @@
+@import url("styles/layout-mobile");
+@import url("styles/layout-tablet");
+@import url("styles/layout-tablet-large");
+@import url("styles/layout-desktop");
+@import url("styles/glitch-effect");
+
+/* Fonts */
+@font-face {
+  font-family: "Space Mono";
+  src: url("./styles/fonts/space-mono-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Light";
+  src: url("./styles/fonts/roboto-thin.ttf") format("truetype");
+}
+
+/* Colours */
+:root {
+  --colour-black: #000000;
+  --colour-blue: #1bc7fb;
+  --colour-pink: #e85381;
+  --colour-medium-pink: #dd5882;
+  --colour-light-pink: #eb91ad;
+  --colour-white: #f9f7ef;
+}
+
+/* General settings */
+#root {
+  height: 100%;
+}
+
+html,
+body {
+  background-color: var(--colour-black);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Light";
+}
+
+h1 {
+  font-family: "Space Mono";
+  color: var(--colour-white);
+}
+
+h2,
+h3,
+p {
+  font-family: "Roboto Light";
+  color: var(--colour-white);
+}
+
+a {
+  color: var(--colour-pink);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--colour-light-pink);
+  transition: 0.3s;
+}
+
+button {
+  border: 0 var(--colour-white);
+}
