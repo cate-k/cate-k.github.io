@@ -46,29 +46,6 @@ const Portfolio = () => {
           <div className="project">
             <img
               className="project-img"
-              src={require("../styles/images/golden-times.png")}
-              alt="Golden Times"
-            />
-
-            <div className="project-info">
-              <h2>Golden Times</h2>
-
-              <ul className="tools">
-                <li>C# / .NET</li>
-                <li>Git & GitHub</li>
-              </ul>
-
-              <p className="description">Golden Times is a platform where people over the age of 60 can enjoy activities and interact with others who have similar interests and are around their age.</p>
-
-              <a className="animated-link" href="https://github.com/cate-k/golden-times#readme" target="_blank" rel="noopener noreferrer">
-                <span>View GitHub repository</span>
-              </a>
-            </div>
-          </div>
-
-          <div className="project">
-            <img
-              className="project-img"
               src={require("../styles/images/wilson-financial-services.png")}
               alt="Wilson Financial Services"
             />
@@ -137,6 +114,29 @@ const Portfolio = () => {
 
               <a className="animated-link" href="https://cate-k.github.io/food-koala" target="_blank" rel="noopener noreferrer">
                 <span>View FoodKoala</span>
+              </a>
+            </div>
+          </div>
+
+          <div className="project">
+            <img
+              className="project-img"
+              src={require("../styles/images/golden-times.png")}
+              alt="Golden Times"
+            />
+
+            <div className="project-info">
+              <h2>Golden Times</h2>
+
+              <ul className="tools">
+                <li>C# / .NET</li>
+                <li>Git & GitHub</li>
+              </ul>
+
+              <p className="description">Golden Times is a platform where people over the age of 60 can enjoy activities and interact with others who have similar interests and are around their age.</p>
+
+              <a className="animated-link" href="https://github.com/cate-k/golden-times#readme" target="_blank" rel="noopener noreferrer">
+                <span>View GitHub repository</span>
               </a>
             </div>
           </div>
