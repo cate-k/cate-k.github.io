@@ -42,9 +42,11 @@ const Home = () => {
 
             <h1>My Skills</h1>
             <ul className="skills">
-              <li>Solidity</li>
+              <li>Java</li>
               <li>ReactJS</li>
               <li>JavaScript</li>
+              <li>SQL</li>
+              <li>Solidity</li>
               <li>Node.js</li>
               <li>Web3.js</li>
               <li>Truffle</li>
@@ -53,7 +55,6 @@ const Home = () => {
               <li>Git & GitHub</li>
               <li>JSON</li>
               <li>C# / .NET</li>
-              <li>Java</li>
               <li>HTML5</li>
               <li>Pug</li>
               <li>CSS3 / SCSS</li>
@@ -61,7 +62,7 @@ const Home = () => {
             <br />
 
             <h1>Contact Me</h1>
-            <p>I'd love to help or collaborate with you in your software or blockchain project. Feel free to contact me at <a className="email" href="mailto:cate@caitlen.dev">cate@caitlen.dev</a>!</p>
+            <p>I'd love to help or collaborate with you in your software or blockchain project. Feel free to contact me at <a className="email" href="mailto:catek.dev@gmail.com">catek.dev@gmail.com</a>!</p>
           </div>
         </div>
       </div>

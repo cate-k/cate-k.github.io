@@ -46,6 +46,37 @@ const Portfolio = () => {
           <div className="project">
             <img
               className="project-img"
+              src={require("../styles/images/authentifyer.png")}
+              alt="Authentifyer"
+            />
+
+            <div className="project-info">
+              <h2>Authentifyer</h2>
+
+              <ul className="tools">
+                <li>Solidity</li>
+                <li>ReactJS</li>
+                <li>JavaScript</li>
+                <li>Node.js</li>
+                <li>Web3.js</li>
+                <li>Truffle</li>
+                <li>Ganache</li>
+                <li>Infura</li>
+                <li>Git & GitHub</li>
+                <li>JSON</li>
+              </ul>
+
+              <p className="description">Authentifyer is a DApp that enables users to identify if a physical product (e.g. sneakers) is authentic or an imitation by scanning unique QR codes.</p>
+
+              <a className="animated-link" href="https://cate-k.github.io/authentifyer" target="_blank" rel="noopener noreferrer">
+                <span>View Authentifyer</span>
+              </a>
+            </div>
+          </div>
+
+          <div className="project">
+            <img
+              className="project-img"
               src={require("../styles/images/wilson-financial-services.png")}
               alt="Wilson Financial Services"
             />
