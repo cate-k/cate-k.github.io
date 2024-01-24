@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Navigation from "./sub-components/navigation";
 import Footer from "./sub-components/footer";
 
 const Portfolio = () => {
+  useEffect(() => {
+    // Automatically scroll to top on page load
+    window.scrollTo(0, 0);
+  });
+
   return (
     <div className="page">
       <Navigation />

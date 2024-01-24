@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import Navigation from "./sub-components/navigation";
 import Footer from "./sub-components/footer";
 
 const Home = () => {
+  useEffect(() => {
+    // Automatically scroll to top on page load
+    window.scrollTo(0, 0);
+  });
+
   return (
     <div className="page">
       <Navigation />
@@ -46,17 +51,21 @@ const Home = () => {
               <li>ReactJS</li>
               <li>JavaScript</li>
               <li>SQL</li>
-              <li>Solidity</li>
+              <li>MongoDB</li>
+              <li>Microsoft SQL Server</li>
+              <li>Yellowfin BI</li>
+              <li>Power BI</li>
               <li>Node.js</li>
+              <li>C# / .NET</li>
+              <li>Solidity</li>
               <li>Web3.js</li>
+              <li>Infura</li>
               <li>Truffle</li>
               <li>Ganache</li>
-              <li>Infura</li>
               <li>Git & GitHub</li>
+              <li>Bitbucket</li>
               <li>JSON</li>
-              <li>C# / .NET</li>
-              <li>HTML5</li>
-              <li>Pug</li>
+              <li>HTML5 / Pug</li>
               <li>CSS3 / SCSS</li>
             </ul>
             <br />
